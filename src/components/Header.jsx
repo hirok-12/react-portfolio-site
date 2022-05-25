@@ -1,7 +1,7 @@
 // 画像をそれぞれimportします。パスに注意してください。
 import CoverImage from '../images/cover-image.jpeg';
 import ProfileImage from '../images/profile-image.png';
-import { FaTwitter, FaGithub } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
 
 
 export const Header = () => {
@@ -21,12 +21,6 @@ export const Header = () => {
                   <FaTwitter color="white" size="2rem" />
                 </a>
               </li>
-              {/* <li className="icon-link"> */}
-                {/* リンク先(href)は任意のURLを設定してください */}
-                {/* <a href="https://github.com/hirok-12">
-                  <FaGithub color="white" size="2rem" />
-                </a>
-              </li> */}
             </ul>
           </div>
         </div>
